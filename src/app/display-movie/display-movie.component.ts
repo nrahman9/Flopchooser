@@ -8,7 +8,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class DisplayMovieComponent {
   @Input() movie;
   @Output() select = new EventEmitter();
-  onSelectClick() {
+  onClick() {
     this.select.emit();
   }
   constructor() {}
