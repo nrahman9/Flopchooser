@@ -1,3 +1,7 @@
-p {
-  font-family: Lato;
+.flop-chooser {
+  margin-bottom: 2rem;
+}
+.movie-image {
+  display: flex;
+  justify-content: space-around;
 }

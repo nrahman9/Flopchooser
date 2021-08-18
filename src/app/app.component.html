@@ -1,6 +1,6 @@
 <h4>Flopchooser</h4>
 
-<div style="margin-bottom:2rem">
+<div class="flop-chooser">
   <p>Which movie has a lower IMDB rating?</p>
   <p [hidden]='!hasChosen'>
     <span [hidden]='!isCorrect'>
@@ -20,7 +20,7 @@
 
 
 
-<div  style="display:flex; justify-content:space-around">
+<div class="movie-image">
 
   <app-display-movie [movie]="flops.first" (select)="onFirstSelected()"></app-display-movie>
   <app-display-movie [movie]="flops.second" (select)="onSecondSelected()"></app-display-movie>
